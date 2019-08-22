@@ -1,0 +1,50 @@
+{
+    "pages": [
+        "pages/home/main",
+        "pages/mycollection/main",
+        "pages/index/main",
+        "pages/ucenter/main",
+        "pages/search/main",
+        "pages/listcate/main",
+        "pages/artists/main",
+        "pages/musicplay/main",
+        "pages/more/main",
+        "pages/artistsDetail/main",
+        "pages/licateDetails/main",
+        "pages/mymusiclist/main"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#489B81"
+    },
+    "requiredBackgroundModes": [
+        "audio",
+        "location"
+    ],
+    "tabBar": {
+        "position": "bottom",
+        "list": [
+            {
+                "pagePath": "pages/home/main",
+                "text": "首页"
+            },
+            
+            {
+                "pagePath": "pages/artists/main",
+                "text": "歌手"
+            },
+            
+            {
+                "pagePath": "pages/listcate/main",
+                "text": "榜单"
+            },
+            {
+                "pagePath": "pages/search/main",
+                "text": "搜索"
+            }, 
+            {
+                "pagePath": "pages/ucenter/main",
+                "text": "我的"
+            }
+        ]
+    }
+}
